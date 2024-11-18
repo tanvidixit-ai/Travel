@@ -1,0 +1,58 @@
+body {
+    background: url("../images/snow-mountain.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+
+.formbox {
+    background-color: rgba(255, 255, 255, 0.589);
+    width: fit-content;
+    height: 380px;
+    margin: 12% auto auto auto;
+    border-radius: 20px;
+}
+
+a[href="home.html"] {
+    margin: 0;
+}
+img#logo {
+    display: block;
+    filter: invert(100%);
+    padding: 1em;
+    margin: 0 auto;
+    border-bottom: 1px #a7a7a7 solid;
+}
+
+.formbox div {
+    margin: 1em 3em;
+    padding: 1em;
+}
+
+.formbox input {
+    display: block;
+    border-radius: 7px;
+    border: solid 2px #9b9b9b;
+    background-color: rgba(255, 255, 255, 0.589);
+    width: 300px;
+    padding: 1em;
+    margin: 2.5em 2em 0.5em 2em;
+    transition: 0.5s;
+}
+.formbox input:focus {
+    outline: none;
+    border: 2px solid rgb(18, 140, 255);
+}
+a {
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 81, 255);
+    margin-left: 2em;
+}
+a.btn {
+    margin: 2em auto;
+    padding: 0.8em;
+    border-radius: 20px;
+    background-color: rgb(43, 112, 241);
+    width: 40%;
+    text-align: center;
+    color: white;
+}

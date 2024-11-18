@@ -1,0 +1,254 @@
+/*=================== welcome image ===================*/
+/* #welcome {
+    background-image: url("../images/welcome1.jpg");
+    background-position: bottom;
+    background-size: cover;
+    color: white;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+} */
+
+#welcome div {
+    width: fit-content;
+    position: absolute;
+    bottom: 7em;
+    left: 2em;
+    font-size: 24px;
+}
+
+/*================= travels details form ========================*/
+#travel-details {
+    width: 100%;
+    height: 30vh;
+    padding: 1em 2em;
+    box-sizing: border-box;
+    background-color: #3591ce;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#travel-details .input-box {
+    transform: scale(1.02);
+    width: fit-content;
+    display: block;
+    padding: 1em;
+    position: relative;
+}
+#travel-details .input-box label {
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+    margin: 8px 10px;
+}
+#travel-details .input-box input, 
+#travel-details .input-box button {
+    border: none;
+    border-radius: 18px;
+    padding: 1.2em 2em;
+    margin: 0.1em;
+}
+#travel-details .input-box button {
+    width: 200px;
+    color: white;
+    font-size: 17px;
+    transition: 0.3s;
+    border: 1px solid white;
+    background-color: #3591ce;
+    box-sizing: border-box;
+    padding: 0.75em 0.9em;
+}
+/* #travel-details .input-box button {
+    
+} */
+
+/*=============== travel destinations form ===============*/
+#destinations {
+    min-width: 1000px;
+    height: fit-content;
+    background-color: #ffffff;
+    padding: 4em 1em 1.2em 1em;
+    box-sizing: border-box;
+}
+#destinations h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 950;
+    letter-spacing: 2px;
+    margin: 0.3em 0em;
+    /* font-weight: bolder; */
+    text-transform: uppercase;
+    color: rgb(0, 38, 56);
+}
+#destinations h6 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #3093d4;
+    padding-bottom: 0.1em;
+    font-size: 0.9em;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+#destinations > p {
+    margin: 0 auto;
+    width: 60%;
+    color: #4b4b4b;
+    text-align: center;
+}
+/* #destinations #nav-cards {
+    margin: 3em 0.1em;
+    display: flex;
+    justify-content: space-evenly;
+}
+#destinations #nav-cards .card {
+    width: 27%;
+    height: 400px;
+    min-width: 300px;
+    background-image: url("../images/welcome1.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    position: relative;
+}
+#destinations #nav-cards .desc {
+    background-color: rgba(255, 255, 255, 0.705);
+    text-align: left;
+    width: fit-content;
+    position: absolute;
+    left: 0; bottom: 0px;
+    padding: 1.5em 1em;
+    margin: 0.6em;
+    border-radius: 20px;
+}
+#destinations #nav-cards div h3 {
+    margin: 0.3em 0em;
+    color: #001c3b;
+    text-transform: uppercase;
+    font-size: 150%;
+    font-weight: 1000;
+    letter-spacing: 1px;
+}
+#destinations #nav-cards div p:nth-child(1) {
+    padding-bottom: 0.3em;
+    color: rgb(64, 136, 219);
+    font-size: 90%;
+}
+#destinations #nav-cards div p:nth-child(3) {
+    color: #4b4b4b;
+    font-size: 95%;
+} */
+#destinations>.link {
+    margin: auto;
+    width: fit-content;
+}
+#destinations>.link>.btn-link {
+    display: inline-block;
+    background-color: rgb(47, 124, 224);
+    color: white;
+    padding: 1.2em 1.8em;
+    border-radius: 25px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 95%;
+}
+
+
+/* search destinations */
+#search-destinations {
+    margin: 3em;
+    height: 360px;
+    box-sizing: border-box;
+}
+#search-destinations img {
+    display: block;
+    float: left;
+    width: 30%;
+    margin: 5%;
+}
+#search-destinations div { 
+    float: left;
+    margin: auto;
+    height: 30%;
+    width: 60%;
+}
+#search-destinations div>h2 {
+    font-size: 30px;
+    color: #242424;
+    margin: 0.3em 0.9em;
+}
+#search-destinations div>input {
+    width: 70%;
+    margin: 0.3em;
+    padding: 1em;
+    font-size: 110%;
+    border: solid 1px #888888;
+    border-radius: 30px;
+    outline: none;
+    transition: 0.2s;
+    box-sizing: content-box;
+}
+#search-destinations div>input:focus {
+    border: solid 1px #0090d3 !important;
+}
+
+/*================ statistical data ================*/
+#stats {
+    height: fit-content;
+    background-color: #3591ce;
+    padding: 3em 1em;
+}
+#stats .stats-box {
+    color: #1a272e;
+    padding: 0 0.3em;
+    margin: auto;
+    background-color: white;
+    width: 90%;
+    border-radius: 45px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.stats-box div {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 2000;
+    width: 25%;
+    margin: 0.5em 0;
+    padding: 0.3em 0;
+    border-left: solid rgb(110, 110, 110) 1px;
+}
+.stats-box div:nth-child(1) {
+    border: none;
+}
+.stats-box div > p {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #006c9e;
+}
+
+#sign-up {
+    height: 40vh;
+    background-color: #6096ba;
+}
+
+/*=================== customer reviews ===================*/
+#reviews {
+    height: fit-content;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 2em;
+}
+#reviews h2 {
+    text-transform: uppercase;
+    margin: 1em 0;
+}
+.name {
+    color: #3591ce;
+    font-weight: 600;
+    font-size: 110%;
+    margin: 0.3em;
+}

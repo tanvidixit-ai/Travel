@@ -1,0 +1,9 @@
+#welcome {
+    background-size: cover;
+    background-position: center;
+}
+
+#welcome h1 {
+    font-size: 75px;
+    margin: 0 auto;
+}

@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+}
+
+body {
+    width: 100%;
+    min-width: 1000px;
+}
+
+div, nav, section, header, footer {
+    width: 100%;
+}
+
+nav {
+    margin: 0em auto;
+    height: fit-content;
+    background-color: #0000005b;
+    color: white;
+    position: fixed;
+    display: flex;
+    z-index: 10;
+}
+
+nav img,footer img {
+    height: 30px;
+    width: auto;
+    margin: 1em auto;
+    display: inline-block;
+}
+nav img {
+    position: relative;
+    right: 10%;
+}
+
+nav ul {
+    text-transform: uppercase;
+    margin-left: 0px;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    width: 50%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav a {
+    display: inline-block;
+    padding: 1em 0.8em;
+    transition: 0.3s;
+}
+nav a:hover {
+    background-color: rgb(206, 206, 206);
+    color: rgb(34, 34, 34);
+}
+nav .signinup {
+    display: inline-block;
+    background-color: rgb(47, 124, 224);
+    color: white;
+    margin: auto 1em;
+    height: 30px;
+    padding: 0.5em 1.2em 1em 1.2em;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 13px;
+}
+
+/*=================== welcome image ===================*/
+#welcome {
+    background-position: bottom;
+    background-size: cover;
+    color: white;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+#destinations #nav-cards {
+    margin: 3em 0em;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+}
+#destinations #nav-cards .card {
+    width: 30%;
+    height: 500px;
+    min-width: 300px;
+    background-image: url("../images/welcome1.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    position: relative;
+    margin: 2em 0em;
+}
+#destinations #nav-cards .desc {
+    background-color: rgba(255, 255, 255, 0.637);
+    text-align: left;
+    width: fit-content;
+    position: absolute;
+    left: 0; bottom: 0px;
+    padding: 1.5em 1em;
+    margin: 0.9em;
+    border-radius: 20px;
+}
+#destinations #nav-cards div h3 {
+    margin: 0.3em 0em;
+    color: #001c3b;
+    text-transform: uppercase;
+    font-size: 150%;
+    font-weight: 1000;
+    letter-spacing: 1px;
+}
+#destinations #nav-cards div p:nth-child(1) {
+    padding-bottom: 0.3em;
+    color: rgb(64, 136, 219);
+    font-size: 90%;
+}
+#destinations #nav-cards div p:nth-child(3) {
+    color: #4b4b4b;
+    font-size: 95%;
+}
+
+footer {
+    height: fit-content;
+    background-color: rgb(31, 31, 31);
+    padding: 1em 4em;
+    color: rgb(199, 199, 199);
+}
+
+.part1, .part2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+footer #description {
+    width: 36%;
+    padding: 1em;
+}
+footer div {
+    margin: 2em 2.5em;
+}
+footer h2 {
+    margin: 0 auto 1em auto
+}
+footer p {
+    margin: 0.5em auto;
+}
+footer .tags {
+    width: 40%;
+    margin-left: 0em;
+}
+footer .tags div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 1em 1em 0em;
+}
+footer button {
+    color: white;
+    margin: 1em;
+    padding: 1em;
+    border: solid 1px white;
+    background-color: rgba(255, 255, 255, 0);
+}
+.centered-elem {
+    display: block;
+    margin: 0 auto;
+}
+footer .part2 {
+    margin: 1em 1em ;
+    border-top: solid 1px #636363;
+}
+footer .part2 .copyright {
+    width: 50%;
+}
